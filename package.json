@@ -1,0 +1,22 @@
+{
+  "name": "basic-ai-edu",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "기본사회위원회 산하 AI교육센터 — AI강사 양성·AI활용·관공서 기초교육 모집/개설 플랫폼",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}

@@ -1,0 +1,74 @@
+/* =========================================================
+   AI교육센터 — Design Tokens
+   Base: 가온시큐어 KDN Vibe Coding Design System
+   딥네이비(#1B2A4A) + 로열블루(#0046C8), Pretendard
+   ========================================================= */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+:root {
+  /* ---------- Brand ---------- */
+  --kdn-primary:      #1B2A4A;
+  --kdn-accent:       #0046C8;
+  --kdn-primary-700:  #14213A;
+  --kdn-accent-600:   #003BA8;
+  --kdn-accent-50:    #E7EEFA;
+
+  /* ---------- Neutrals ---------- */
+  --kdn-bg:           #FFFFFF;
+  --kdn-surface:      #F4F6FA;
+  --kdn-border:       #E5E9F2;
+  --kdn-divider:      #E5E7EB;
+
+  /* ---------- Text ---------- */
+  --kdn-fg-strong:    #111111;
+  --kdn-fg:           #1A1A1A;
+  --kdn-fg-muted:     #374151;
+  --kdn-fg-faded:     #4B5563;
+  --kdn-fg-disabled:  #6B7280;
+  --kdn-fg-on-primary:#FFFFFF;
+
+  /* ---------- Semantic ---------- */
+  --kdn-success:      #16A34A;
+  --kdn-success-bg:   #DCFCE7;
+  --kdn-info:         #0EA5E9;
+  --kdn-info-bg:      #E0F2FE;
+  --kdn-warn:         #D97706;
+  --kdn-warn-bg:      #FEF3C7;
+  --kdn-danger:       #DC2626;
+  --kdn-danger-bg:    #FEE2E2;
+
+  /* ---------- Signature gradient ---------- */
+  --kdn-hero-gradient: linear-gradient(135deg, #1B2A4A 0%, #0046C8 100%);
+
+  /* ---------- Translucent overlays ---------- */
+  --kdn-tag-fill:     rgba(255, 255, 255, 0.18);
+  --kdn-tag-border:   rgba(255, 255, 255, 0.35);
+
+  /* ---------- Radii ---------- */
+  --kdn-radius-sm:    8px;
+  --kdn-radius-md:    12px;
+  --kdn-radius-lg:    16px;
+  --kdn-radius-pill:  999px;
+
+  /* ---------- Shadow ---------- */
+  --kdn-shadow-1:     0 1px 2px rgba(17, 24, 39, 0.04);
+  --kdn-shadow-2:     0 4px 12px rgba(27, 42, 74, 0.08);
+  --kdn-shadow-hero:  0 12px 32px rgba(0, 70, 200, 0.18);
+
+  /* ---------- Spacing (8pt) ---------- */
+  --kdn-space-1: 4px;  --kdn-space-2: 8px;  --kdn-space-3: 12px;
+  --kdn-space-4: 16px; --kdn-space-5: 20px; --kdn-space-6: 24px;
+  --kdn-space-8: 32px; --kdn-space-12: 48px; --kdn-space-14: 56px;
+
+  /* ---------- Type ---------- */
+  --kdn-font-sans: "Pretendard Variable", Pretendard, -apple-system,
+                   BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+                   "Noto Sans KR", "Malgun Gothic", sans-serif;
+  --kdn-font-mono: "JetBrains Mono", "D2Coding", ui-monospace, SFMono-Regular,
+                   Menlo, Consolas, monospace;
+
+  --kdn-content-max: 1240px;
+  --kdn-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --kdn-dur-fast: 120ms;
+  --kdn-dur: 200ms;
+}
